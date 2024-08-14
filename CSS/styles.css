@@ -5,3 +5,28 @@
     margin: 0;
     padding: 0;
 }
+#interface{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    border: 1px rgb(77, 111, 173);
+}
+#interface .cabecalho{
+    display: block;
+    width: 100%;
+    border: 1px rgb(115, 230, 205);
+    height: 100%;
+     background-repeat:no-repeat;
+     background-size: cover;
+     background-image: url(../images/hero-bg.png);
+}
+#interface .cabecalho .logomenu{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: transparent;
+
+}
+#interface .cabecalho .logomenu .a{
+    
+}
