@@ -12,7 +12,9 @@
     border: 1px rgb(77, 111, 173);
 }
 #interface .cabecalho{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     border: 1px rgb(115, 230, 205);
     height: 100%;
@@ -20,6 +22,7 @@
      background-size: cover;
      background-image: url(../images/hero-bg.png);
 }
+/*tag nav*/
 #interface .cabecalho .logomenu{
     display: block;
     width: 100%;
@@ -27,6 +30,19 @@
     background-color: transparent;
 
 }
-#interface .cabecalho .logomenu .a{
-    
+#interface .cabecalho .logomenu a{
+    display: block;
+    width: 150px;
+}
+#interface .cabecalho .logomenu a img{
+    width: 100%;
+
+}
+#interface .cabecalho .logomenu .menu{
+    display: inline-block;
+    list-style: row;
+    flex-direction: none;
+}
+#interface .cabecalho .logomenu .menu {
+   
 }
